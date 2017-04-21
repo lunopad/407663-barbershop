@@ -31,6 +31,21 @@
         </nav>
         <div class="user-block">
           <a class="login" href="#">Вход</a>
+          <div class="login-window">
+            <button class="remove">Закрыть</button>
+            <h2>Личный кабинет</h2>
+            <p>Введите, пожалуйста, свой логин и пароль</p>
+            <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+              <input type="text" name="login" value="" placeholder="Логин">
+              <input type="text" name="password" value="" placeholder="Пароль">
+              <label>
+                <input type="checkbox" name="remember" value="1">
+                Запомните меня
+              </label>
+              <a href="#">Я забыл пароль!</a>
+              <button class="main-btn" type="submit">Войти</button>
+            </form>
+          </div>
         </div>
       </div>
     </header>
@@ -44,8 +59,8 @@
           <li>
             <a href="#">Магазин</a>
           </li>
-          <li>
-            <a class="breadcrumbs-active">Средства для ухода</a>
+          <li class="breadcrumbs-active">
+            Средства для ухода
           </li>
         </ul>
       </nav>
@@ -73,9 +88,15 @@
       </section>
       <section class="goods">
         <div class="goods-item">
-          <img src="http://placehold.it/220x165" width="220" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA">
-          <span class="price">2 900 руб.</span>
-          <a class="btn" href="#">Купить</a>
+          <a href="#">
+            <img src="http://placehold.it/220x165" width="220" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA">
+          </a>
+          <a href="#">
+            <p class="goods-name">Набор для путешествий<br>
+            «Baxter of California»</p>
+          </a>
+          <span class="goods-price">2 900 руб.</span>
+          <button class="btn">Купить</button>
         </div>
       </section>
       <nav class="pages">
@@ -83,8 +104,8 @@
           <li>
             <a href="#">1</a>
           </li>
-          <li>
-            <a class="pages-active">2</a>
+          <li class="pages-active">
+            2
           </li>
         </ul>
       </nav>
