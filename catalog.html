@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп "Бородинский"</title>
+  </head>
+  <body>    
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <img src="http://placehold.it/111x24" width="111" height="24" alt="Barbershop">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a class="main-navigation-active" href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Средства для ухода</h1>
+      <nav class="breadbrumbs">
+        <ul>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a class="breadcrumbs-active">Средства для ухода</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="filter">
+        <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Производители:</legend>
+            <input id="baxter" type="checkbox" name="made-by" value="baxter"> <label for="baxter">Baxter of California</label>
+            <input id="mrnatty" type="checkbox" name="made-by" value="mrnatty"> <label for="mrnatty">Mr Natty</label>
+            <input id="suavecito" type="checkbox" name="made-by" value="suavecito"> <label for="suavecito">Suavecito</label>
+            <input id="malin" type="checkbox" name="made-by" value="malin"> <label for="malin">Malin+Goetz</label>
+            <input id="murrays" type="checkbox" name="made-by" value="murrays"> <label for="murrays">Murray's</label>
+            <input id="american" type="checkbox" name="made-by" value="american"> <label for="american">American Crew</label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Группы товаров:</legend>
+            <input id="shaver" type="radio" name="group" value="shaver"> <label for="shaver">Бритвенные принадлежности</label>
+            <input id="care" type="radio" name="group" value="care"> <label for="care">Средства для ухода</label>
+            <input id="accessories" type="radio" name="group" value="accessories"> <label for="accessories">Аксессуары</label>
+          </fieldset>
+          
+          <button class="btn" type="submit">Показать</button>
+        </form>
+      </section>
+      <section class="goods">
+        <div class="goods-item">
+          <img src="http://placehold.it/220x165" width="220" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA">
+          <span class="price">2 900 руб.</span>
+          <a class="btn" href="#">Купить</a>
+        </div>
+      </section>
+      <nav class="pages">
+        <ul>
+          <li>
+            <a href="#">1</a>
+          </li>
+          <li>
+            <a class="pages-active">2</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп "Бородинский"<br>
+          Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7(495)666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-insta" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTMLACADEMY.RU</a>
+        </section>
+      </div>      
+    </footer>
+  </body>
+</html>
